@@ -64,3 +64,17 @@ target/
 
 # Ipython Notebook
 .ipynb_checkpoints
+
+# Zudoku / Node
+/node_modules
+/.pnp
+.pnp.js
+/dist
+/.zudoku
+.next
+.DS_Store
+*.pem
+npm-debug.log*
+.env
+.env.local
+.env*.local

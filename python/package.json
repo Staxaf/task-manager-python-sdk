@@ -1,0 +1,26 @@
+{
+  "name": "task-manager-python-sdk-docs",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "ZUDOKU_DISABLE_UPDATE_CHECK=1 zudoku dev --port 4000",
+    "build": "ZUDOKU_DISABLE_UPDATE_CHECK=1 zudoku build",
+    "preview": "ZUDOKU_DISABLE_UPDATE_CHECK=1 zudoku preview --port 4000",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "react": ">=19.2.0",
+    "react-dom": ">=19.2.0",
+    "zudoku": "0.93.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^6",
+    "eslint": "^8",
+    "@typescript-eslint/eslint-plugin": "^8",
+    "@typescript-eslint/parser": "^8"
+  }
+}
