@@ -5,9 +5,10 @@ const LOCAL_API_URL = "http://localhost:3000";
 type Server = { url: string; description: string };
 
 /**
- * Ensures the playground always has absolute server URLs.
- * - Local: http://localhost:3000
- * - Deployed: set ZUDOKU_PUBLIC_API_URL (e.g. https://your-api.example.com)
+ * Absolute server URLs for the OpenAPI playground only.
+ * Static docs on GitHub Pages do not need a live API.
+ * - Default: http://localhost:3000
+ * - Optional: ZUDOKU_PUBLIC_API_URL for a real deployed API
  */
 async function addServers({ schema }: { schema: Record<string, unknown> }) {
   const deployed = process.env.ZUDOKU_PUBLIC_API_URL?.replace(/\/$/, "");

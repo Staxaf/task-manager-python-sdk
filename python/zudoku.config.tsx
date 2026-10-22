@@ -34,11 +34,6 @@ const config: ZudokuConfig = {
       ],
     },
     {
-      type: "doc",
-      file: "about",
-      label: "About",
-    },
-    {
       type: "link",
       to: "/api",
       label: "API Reference",
