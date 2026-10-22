@@ -1,0 +1,16 @@
+# About
+
+## Author
+
+**Anton** — author of the Task Management API and its Python SDK documentation.
+
+This project is a REST API for managing users, projects, tasks, and comments, with an OpenAPI specification and a generated Python client (`acme_api`). The docs site is built with [Zudoku](https://zudoku.dev/) from `sdk/openapi.yaml`.
+
+## Project
+
+| | |
+|---|---|
+| **API** | Task Management API |
+| **OpenAPI version** | 1.0 |
+| **Python package** | `acme_api` |
+| **Repository** | [Staxaf/task-manager-python-sdk](https://github.com/Staxaf/task-manager-python-sdk) |

@@ -1,0 +1,2 @@
+import{a as e}from"./rolldown-runtime-CNC7AqOf.js";import{t}from"./react-C57LBNjW.js";var n=e(t(),1),r=()=>()=>{},i=()=>(0,n.useSyncExternalStore)(r,()=>`client`,()=>`server`)===`client`,a=e=>i()?e.children:e.fallback;export{i as n,a as t};
+//# sourceMappingURL=ClientOnly-BcrBHktk.js.map
